@@ -85,12 +85,29 @@
 // if (umur < 56){
 //     console.log(nama, )
 // } 
-let nama =Bambang;
-let umur = 29;
-if (umur < 56) {
-  console.log("saya masih aktif bekerja ");
-} else {
-  console.log("angka ini lebih kecil atau sama dengan 5");
+
+
+// let nama =Bambang;
+// let umur = 29;
+// if (umur < 56) {
+//   console.log("saya masih aktif bekerja ");
+// } else {
+//   console.log("angka ini lebih kecil atau sama dengan 5");
+// }
+
+ // Tugas 1 Pertemuan 6
+let nama = 'Nama saya bambang,'; 
+let umur = 60;
+let hobi = ' saya hobi memancing'; 
+
+if(umur  <= 56)
+{
+  console.log(nama +' saya masih aktif bekerja, '+ 'umur saya '+umur+' tahun, '+hobi);  
+}
+else if (umur > 56)
+{
+  console.log(nama +' saya sudah pensiun dan ' + 'umur saya '+umur+' tahun,'+ hobi);
+    
 }
 
 
